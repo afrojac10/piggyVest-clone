@@ -7,7 +7,9 @@ body {
   background-image: url("./background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: right;
   min-height: 100vh;
+  width: 100%;
 }
 
 a {
@@ -71,6 +73,10 @@ input {
   outline: none;
   width: 91%;
   font-size: 100%;
+}
+
+input[type="email"] {
+  margin: ;
 }
 
 label {
