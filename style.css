@@ -21,8 +21,8 @@ a {
   display: block;
   text-decoration: none;
   color: rgb(255, 255, 255);
-  /* padding: 10px; */
-  /* margin: 5px; */
+  padding: 10px;
+  margin: 9px;
   font-family: "Karla", sans-serif;
   font-size: 14px;
   cursor: pointer;
@@ -33,9 +33,6 @@ a:hover {
 }
 
 footer {
-  /* padding: 10px; */
-  margin: 0 !important;
-  padding: 0 !important;
 }
 
 .logo {
@@ -100,15 +97,14 @@ label {
 }
 
 .bgDesign {
-  position: relative;
   position: fixed;
 }
 
 .blueImg {
   position: absolute;
   width: 207px;
-  left: -14px;
-  bottom: -137px;
+  left: -8px;
+  top: -73px;
 }
 
 .pinkImg {
@@ -120,9 +116,9 @@ label {
 
 .purpleImg {
   position: absolute;
-  width: 226px;
+  width: 207px;
   left: 72em;
-  top: 27em;
+  top: 28em;
 }
 
 .password {
@@ -162,7 +158,13 @@ button {
   .greenImg {
     position: relative;
     width: 62px;
-    left: 21em;
+    left: 22em;
     z-index: -5;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .greenImg {
+    visibility: hidden;
   }
 }
