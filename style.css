@@ -21,7 +21,7 @@ a {
   display: block;
   text-decoration: none;
   color: rgb(255, 255, 255);
-  padding: 2px;
+  padding: 10px;
   margin: 5px;
   font-family: "Karla", sans-serif;
   font-size: 14px;
@@ -34,7 +34,7 @@ a:hover {
 
 footer {
   /* padding: 10px; */
-  margin: 9px;
+  margin: 2px;
 }
 
 .logo {
