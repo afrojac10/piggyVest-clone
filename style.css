@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "U8";
+  src: url("./U8-Bold.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,10 +12,9 @@ body {
   background-image: url("./background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-size: 100% 100%;
   background-position: center;
   min-height: 100vh;
-  width: 100%;
+  /* width: 100%; */
 }
 
 a {
@@ -50,6 +54,7 @@ footer {
   font-weight: 700 !important;
   font-size: 20px !important;
   word-spacing: 2px;
+  font-family: U8 !important;
 }
 
 .loginText {
@@ -59,7 +64,7 @@ footer {
 }
 
 .font-display {
-  font-family: "Arvo", serif;
+  font-family: Karla, serif;
   font-size: 12px;
   font-weight: 600;
 }
@@ -76,15 +81,6 @@ input {
   width: 25rem;
 }
 
-/* input[type="email"] {
-  width: 111%;
-  padding: 18px;
-}
-input[type="password"] {
-  width: 111%;
-  padding: 18px;
-} */
-
 label {
   color: #4a5568;
   margin: 0 -16px;
@@ -99,6 +95,32 @@ label {
   background-color: #fff;
   padding: 3.8rem 2.9rem;
   border-radius: 1.25rem 1.25rem 1.25rem 0;
+}
+
+.bgDesign {
+  position: relative;
+  position: fixed;
+}
+
+.blueImg {
+  position: absolute;
+  width: 207px;
+  left: -14px;
+  bottom: -137px;
+}
+
+.pinkImg {
+  position: absolute;
+  top: 30em;
+  left: -97px;
+  width: 226px;
+}
+
+.purpleImg {
+  position: absolute;
+  width: 226px;
+  left: 72em;
+  top: 27em;
 }
 
 .password {
@@ -129,5 +151,9 @@ button {
 
   input {
     width: 19.5rem;
+  }
+
+  .hide {
+    visibility: hidden;
   }
 }
