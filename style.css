@@ -34,7 +34,8 @@ a:hover {
 
 footer {
   /* padding: 10px; */
-  margin: 2px;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .logo {
@@ -159,7 +160,7 @@ button {
   }
 
   .greenImg {
-    position: fixed;
+    position: relative;
     width: 62px;
     left: 21em;
     z-index: -5;
