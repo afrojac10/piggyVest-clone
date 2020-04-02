@@ -12,7 +12,7 @@ body {
   background-image: url("./background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   min-height: 100vh;
   /* width: 100%; */
 }
@@ -22,7 +22,7 @@ a {
   text-decoration: none;
   color: rgb(255, 255, 255);
   padding: 10px;
-  margin: 10px;
+  margin: 5px;
   font-family: "Karla", sans-serif;
   font-size: 14px;
   cursor: pointer;
@@ -95,6 +95,7 @@ label {
   background-color: #fff;
   padding: 3.8rem 2.9rem;
   border-radius: 1.25rem 1.25rem 1.25rem 0;
+  z-index: 1;
 }
 
 .bgDesign {
@@ -155,5 +156,12 @@ button {
 
   .hide {
     visibility: hidden;
+  }
+
+  .greenImg {
+    position: fixed;
+    width: 62px;
+    left: 21em;
+    z-index: -5;
   }
 }
