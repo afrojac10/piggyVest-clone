@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Karla&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./favicon.webp" type="image/x-icon" />
+    <title>Dashboard - PiggyVest</title>
+  </head>
+  <body>
+    <div class="bgDesign">
+      <img src="./blue-img.png" alt="" class="blueImg hide" />
+      <img src="./green-img.png" alt="" class="greenImg show" />
+      <img src="./pink-img.png" alt="" class="pinkImg hide" />
+      <img src="./purple-img.png" alt="" class="purpleImg hide" />
+    </div>
+    <div class="container">
+      <img src="./piggyvest-logo.svg" alt="piggyVest logo" class="logo" />
+      <section class="sec1">
+        <div class="con">
+          <h3 class="login font-display">Login to your account</h3>
+          <p class="loginText">Securely login your PiggyVest</p>
+        </div>
+        <div class="form">
+          <form action="">
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" placeholder="Full Name"><br>
+            <label for="email">Email Address</label><br>
+            <input type="email"id="email" placeholder="Email Address"><br>
+            <label for="no">phone number</label><br>
+            <input type="tel"id="no" placeholder="Phone Number"><br>
+            <label for="pward">Password</label><br>
+            <input type="password"id="pward" placeholder="Password"><label><br>
+            <label for="ref">Refferrer Phone or Promo Code (optional)</label><br>
+            <input type="text"id="ref" placeholder="Refferer Phone of Code"><label><br>
+                <label for="how">How did you hear about us (optional)</label><br>
+                <select name="how" id="how">
+                    <option value="click to select">Click To Select</option>
+                    <option value="Facebook"> Facebook</option>
+                    <option value="Twitter"> Twitter</option>
+                    <option value="Instagram"> Instagram</option>
+                    <option value="Friend/Family/Coworker Referral"> Friend/Family/Coworker Referral</option>
+                    <option value="Google Search">Google Search</option>
+                    <option value="Google Playsore">Google Playsore</option>
+                    <option value="Online Blog">Online Blog</option>
+                    <option value="Local Newspapper">Local Newspapper</option>
+                    <option value="At an event">At an event</option>
+                    <option value="Other">Other</option><br>
+                  </select>
+              <button class="submit font-display">LOG IN</button>
+              
+          </form>
+        </div>
+      </section>
+    </div>
+    <footer class="container">
+      <a href="/">Already have an account? Login </a>
+    </footer>
+  </body>
+</html>
