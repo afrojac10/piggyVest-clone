@@ -73,7 +73,6 @@ input,
 select {
   display: block;
   border: none;
-  padding: 18px;
   margin: 1em -15px;
   border: 1 solid #edf2f7;
   outline: none;
@@ -81,6 +80,7 @@ select {
   background-color: #edf2f7;
   width: 25rem;
   border-radius: 8px;
+  padding: 15px;
 }
 
 /* select {
