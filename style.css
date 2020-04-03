@@ -218,9 +218,3 @@ label {
     margin: 1em 5px !important;
   }
 }
-
-@media screen and (min-width: 500px) {
-  /* .greenImg {
-    visibility: hidden;
-  } */
-}
